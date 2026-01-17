@@ -10,6 +10,8 @@ def generate_federal_contact_data(records=5000):
     
     # Define systems (Modernization context)
     systems = ['Legacy_Oracle', 'Legacy_Avaya', 'Cloud_Modern_Connect']
+    # NEW: Define federal regions for Geographic Access analysis
+    regions = ['Northeast', 'Southeast', 'Midwest', 'Southwest', 'West']
     
     data = []
     for i in range(records):
@@ -30,13 +32,14 @@ def generate_federal_contact_data(records=5000):
             'wait_time_sec': round(wait_time, 2),
             'resolution_status': resolution,
             'agent_id': f"AGT-{np.random.randint(100, 999)}",
-            'caller_intent': np.random.choice(['Benefits', 'Pharmacy', 'Mental Health', 'General Inquiry'])
+            'caller_intent': np.random.choice(['Benefits', 'Pharmacy', 'Mental Health', 'General Inquiry']),
+            'caller_region': np.random.choice(regions) # NEW: Geographic dimension
         })
 
     df = pd.DataFrame(data)
     
     # Save for BigQuery Upload
     df.to_csv('federal_contact_center_data.csv', index=False)
-    print("Successfully generated 'federal_contact_center_data.csv' for driiiportfolio project.")
+    print("Successfully generated 'federal_contact_center_data.csv' with caller_region for driiiportfolio.")
 
 generate_federal_contact_data()
