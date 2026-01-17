@@ -1,0 +1,21 @@
+call_id,source_system,call_timestamp,wait_time_sec,resolution_status,agent_id,caller_intent
+CALL-000000,Legacy_Avaya,04/02/2025 14:52:00,191.72,Escalated,AGT-120,Mental Health
+CALL-000001,Legacy_Avaya,12/29/2025 02:30:00,129.04,Dropped,AGT-199,General Inquiry
+CALL-000002,Cloud_Modern_Connect,2025-08-17T17:25:00,106.31,Resolved,AGT-376,Benefits
+CALL-000003,Legacy_Avaya,10/20/2025 23:49:00,103.53,Resolved,AGT-574,Mental Health
+CALL-000004,Legacy_Avaya,04/14/2025 19:43:00,246.07,Resolved,AGT-289,Pharmacy
+CALL-000005,Cloud_Modern_Connect,2025-08-10T13:10:00,88.15,Resolved,AGT-584,Mental Health
+CALL-000006,Cloud_Modern_Connect,2025-06-28T08:40:00,60.32,Resolved,AGT-554,General Inquiry
+CALL-000007,Legacy_Avaya,03/15/2025 23:30:00,554.66,Resolved,AGT-971,General Inquiry
+CALL-000008,Legacy_Avaya,05/25/2025 15:01:00,203.97,Resolved,AGT-576,Mental Health
+CALL-000009,Cloud_Modern_Connect,2025-05-21T11:23:00,79.06,Dropped,AGT-369,Mental Health
+CALL-000010,Cloud_Modern_Connect,2025-12-05T19:19:00,174.02,Escalated,AGT-848,Pharmacy
+CALL-000011,Cloud_Modern_Connect,2025-08-31T07:51:00,479.07,Resolved,AGT-479,Benefits
+CALL-000012,Legacy_Oracle,09/19/2025 17:36:00,107.82,Resolved,AGT-228,General Inquiry
+CALL-000013,Legacy_Avaya,04/05/2025 16:10:00,199.42,Escalated,AGT-518,Benefits
+CALL-000014,Cloud_Modern_Connect,2025-04-04T11:53:00,48.06,Resolved,AGT-132,General Inquiry
+CALL-000015,Legacy_Avaya,12/06/2025 23:30:00,395.65,Resolved,AGT-646,Benefits
+CALL-000016,Legacy_Avaya,04/07/2025 15:42:00,456.62,Escalated,AGT-317,Mental Health
+CALL-000017,Cloud_Modern_Connect,2025-03-24T18:16:00,77.91,Resolved,AGT-991,Benefits
+CALL-000018,Legacy_Oracle,02/04/2025 17:35:00,418.21,Resolved,AGT-195,General Inquiry
+CALL-000019,Cloud_Modern_Connect,2025-03-15T12:38:00,183.98,Dropped,AGT-938,Mental Health
